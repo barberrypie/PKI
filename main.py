@@ -54,7 +54,7 @@ if __name__ == '__main__':
                 print(f"{cert.subjectDN()}\n"
                       f"HASH отпечаток = {cert.sha1Thumbprint()}\n")
         elif mode == "2":
-            print("Введите Command Name выбранного сертификата.\n "
+            print("Введите CN выбранного сертификата.\n "
                   "Сертификат будет взят из последнего просмотренного хранилища")
 
             subCN = input(">> ")
